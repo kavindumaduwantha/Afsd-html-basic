@@ -1,0 +1,57 @@
+.flex-container{
+      display: flex;
+      background-color: aquamarine;
+      padding: 5px;
+}
+
+.item{
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    width: 100px;
+
+}
+
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.flex-wrap-revers{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    padding: 5px;
+}
+.flex-space-betweeen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 5px;
+}

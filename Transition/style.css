@@ -1,0 +1,15 @@
+.div{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(38, 200, 200);
+  position: relative;
+  transition: width 2s, height 2s, transform 2s;
+
+}
+
+.div:hover {
+     width: 200px;
+     height: 200px;
+     transform: rotate(360deg) ;
+
+}

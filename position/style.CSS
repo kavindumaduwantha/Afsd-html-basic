@@ -1,0 +1,58 @@
+.sticky{
+     position: sticky;
+     background-color: aquamarine;
+     border: 2px solid red;
+     top: 5px;
+     padding: 10px;
+}
+
+
+
+.static-1{
+     position:static;
+     left: 90px;
+     right: 90px;
+     border: 3px solid #6b2d6d
+
+
+}
+
+/*relative*/
+.relative{
+     position:static;
+     left: 90px;
+     right: 90px;
+     border: 3px solid #6b2d6d
+
+     
+}
+
+/*fixed*/
+.fixed{
+     position: fixed;
+     bottom:0 ;
+     right: 0;
+     width: 300px;
+     border: 3px solid red;
+}
+
+
+.relative-1{
+     position:relative;
+     width: 400px;
+     height: 200px;
+     left: 90px;
+     border: 3px solid black;
+     
+}
+
+.absolute-1{
+     position:absolute;
+     top: 30px;
+     width: 200px;
+     height: 100px;
+     right: 90px;
+     border: 3px solid rebeccapurple;
+
+}
+
